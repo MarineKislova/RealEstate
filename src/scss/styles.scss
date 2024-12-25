@@ -1,0 +1,14 @@
+@use "sass:math";
+
+@import "./fonts";
+@import "./root";
+@import "./variable";
+@import "./mixins";
+@import "./null";
+
+@import "../components/hero-section/hero-section";
+
+[class*="__container"] {
+  margin: 0 auto;
+  max-width:$containerWidth;
+}
